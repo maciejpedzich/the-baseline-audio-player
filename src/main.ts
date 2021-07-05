@@ -1,13 +1,11 @@
 import { createApp } from 'vue';
-import PrimeVue from 'primevue/config';
-
-import 'primevue/resources/primevue.min.css';
-import 'primevue/resources/themes/arya-blue/theme.css';
-import 'primeflex/primeflex.css';
-
 import App from './App.vue';
 import router from './router';
 
-const app = createApp(App);
+import PrimeVue from 'primevue/config';
+import 'primevue/resources/primevue.min.css';
+import 'primevue/resources/themes/arya-green/theme.css';
+import 'primeflex/primeflex.css';
+import 'primeicons/primeicons.css';
 
-app.use(PrimeVue).use(router).mount('#app');
+createApp(App).use(PrimeVue).use(router).mount('#app');
