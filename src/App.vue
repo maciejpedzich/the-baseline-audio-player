@@ -1,30 +1,51 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="container">
+    <router-view />
   </div>
-  <router-view />
+  <AudioPlayerFooter />
 </template>
 
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+import AudioPlayerFooter from '@/components/AudioPlayerFooter.vue';
+
+export default defineComponent({
+  components: {
+    AudioPlayerFooter
+  }
+});
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--surface-b);
+  color: var(--text-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#nav {
-  padding: 30px;
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
 </style>
