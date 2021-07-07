@@ -44,7 +44,7 @@ import Slider from 'primevue/slider';
 import Avatar from 'primevue/avatar';
 
 export default defineComponent({
-  name: 'AudioPlayerFooter',
+  name: 'AudioPlayer',
   components: {
     Button,
     Slider,
@@ -61,12 +61,11 @@ export default defineComponent({
 
 <style scoped>
 #player-container {
-  width: 100%;
   position: fixed;
-  left: 0;
   bottom: 0;
-  border-top: 1px solid var(--surface-d);
-  background-color: var(--surface-a);
+  width: 100%;
+  background-color: var(--surface-100);
+  border-top: 1px solid var(--surface-600);
 }
 
 #duration-bar,

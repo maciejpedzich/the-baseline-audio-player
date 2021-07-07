@@ -2,17 +2,17 @@
   <div class="container">
     <router-view />
   </div>
-  <AudioPlayerFooter />
+  <AudioPlayer />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-import AudioPlayerFooter from '@/components/AudioPlayerFooter.vue';
+import AudioPlayer from '@/components/AudioPlayer.vue';
 
 export default defineComponent({
   components: {
-    AudioPlayerFooter
+    AudioPlayer
   }
 });
 </script>
@@ -21,7 +21,7 @@ export default defineComponent({
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--surface-b);
+  background-color: var(--surface-0);
   color: var(--text-color);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
