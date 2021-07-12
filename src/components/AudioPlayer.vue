@@ -1,5 +1,5 @@
 <template>
-  <footer id="player-container" class="p-grid p-m-0 p-py-1">
+  <footer id="player-container" class="p-grid p-m-0">
     <div class="p-col-3 p-d-flex p-ai-center">
       <Avatar class="p-mx-3" size="xlarge" label="X" />
       <div>
