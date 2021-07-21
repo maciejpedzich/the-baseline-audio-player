@@ -1,0 +1,66 @@
+[
+  {
+    "id": "836fa785-287d-451e-b128-522d1ffbf8f2",
+    "title": "Broken coin",
+    "author": "Soft and Furious",
+    "coverArt": "1.jpg",
+    "src": "1.mp3",
+    "duration": 138
+  },
+  {
+    "id": "db2bc8b9-9203-48e1-89b0-7bd7529dbe0d",
+    "title": "Blood in the fridge",
+    "author": "Monplaisir",
+    "coverArt": "2.jpg",
+    "src": "2.mp3",
+    "duration": 150
+  },
+  {
+    "id": "13ce116a-5464-4ab2-87bd-8c4afc33bbae",
+    "title": "Skittles",
+    "author": "Frederic Lardon",
+    "coverArt": "3.jpg",
+    "src": "3.mp3",
+    "duration": 107
+  },
+  {
+    "id": "3ddcb974-5105-45f5-9b93-e5c512ec81d5",
+    "title": "The Wind",
+    "author": "Komiku",
+    "coverArt": "4.jpg",
+    "src": "4.mp3",
+    "duration": 104
+  },
+  {
+    "id": "f37618e4-efec-42bc-a5fb-b0e8ce2f6e4a",
+    "title": "Final Fight",
+    "author": "Komiku",
+    "coverArt": "5.jpg",
+    "src": "5.mp3",
+    "duration": 97
+  },
+  {
+    "id": "91e6375c-0af3-4089-942d-f0f95d134cc2",
+    "title": "Start to play",
+    "author": "Anonymous420",
+    "coverArt": "6.jpg",
+    "src": "6.mp3",
+    "duration": 113
+  },
+  {
+    "id": "22d9aba9-9955-47a6-b883-b225b59aef10",
+    "title": "The Secret",
+    "author": "Soft and Furious",
+    "coverArt": "7.jpg",
+    "src": "7.mp3",
+    "duration": 157
+  },
+  {
+    "id": "e4cd41d8-f843-44a4-ad06-382f10105c3a",
+    "title": "Airvent",
+    "author": "Frederic Lardon",
+    "coverArt": "8.jpg",
+    "src": "8.mp3",
+    "duration": 159
+  }
+]
